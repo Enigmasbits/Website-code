@@ -43,8 +43,6 @@
       type="text/css"
       href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap.css"
     />
-    <!--Jquery-->
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
   </head>
 
   <body>
@@ -62,7 +60,7 @@
       <div class="wrapper2">
         <div class="logo">
           <img src="image/Logo-Vector.png" alt="Enigmas Bits Logo" />
-          <a href="#">Enigmas Bits</a>
+          <a href="https://www.enigmasbits.com">Enigmas Bits</a>
         </div>
 
         <input type="radio" name="slider" id="menu-btn" />
@@ -71,66 +69,44 @@
           <label for="close-btn" class="btn close-btn"
             ><i class="fas fa-times"></i
           ></label>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">About</a></li>
+          <li><a href="https://www.enigmasbits.com">Home</a></li>
+          <li><a href="about.html">About</a></li>
           <li>
-            <a href="#" class="desktop-item">Projects</a>
-            <input type="checkbox" id="showDrop" />
-            <label for="showDrop" class="mobile-item">Projects</label>
-            <ul class="drop-menu">
-              <li><a href="#">Drop menu 1</a></li>
-              <li><a href="#">Drop menu 2</a></li>
-              <li><a href="#">Drop menu 3</a></li>
-              <li><a href="#">Drop menu 4</a></li>
-            </ul>
+            <a href="projects.html">Projects</a>
           </li>
           <li>
-            <a href="#" class="desktop-item">Services</a>
+            <a href="services.html" class="desktop-item">Services</a>
             <input type="checkbox" id="showMega" />
             <label for="showMega" class="mobile-item">Services</label>
             <div class="mega-box">
               <div class="content">
                 <div class="row">
-                  <img
-                    src="https://fadzrinmadu.github.io/hosted-assets/responsive-mega-menu-and-dropdown-menu-using-only-html-and-css/img.jpg"
-                    alt=""
-                  />
+                  <img src="image/Services.png" />
                 </div>
                 <div
                   class="row"
                   data-aos="fade-up"
                   data-aos-anchor-placement="top-center"
                 >
-                  <header>Design Services</header>
+                  <header>Development Services</header>
                   <ul class="mega-links">
-                    <li><a href="#">Graphics</a></li>
-                    <li><a href="#">Vectors</a></li>
-                    <li><a href="#">Business cards</a></li>
-                    <li><a href="#">Custom logo</a></li>
+                    <li><a href="services.html">Web Design</a></li>
+                    <li><a href="services.html">Mobile App</a></li>
+                    <li><a href="services.html">SEO</a></li>
                   </ul>
                 </div>
                 <div class="row">
-                  <header>Email Services</header>
+                  <header>Business Services</header>
                   <ul class="mega-links">
-                    <li><a href="#">Personal Email</a></li>
-                    <li><a href="#">Business Email</a></li>
-                    <li><a href="#">Mobile Email</a></li>
-                    <li><a href="#">Web Marketing</a></li>
-                  </ul>
-                </div>
-                <div class="row">
-                  <header>Security services</header>
-                  <ul class="mega-links">
-                    <li><a href="#">Site Seal</a></li>
-                    <li><a href="#">VPS Hosting</a></li>
-                    <li><a href="#">Privacy Seal</a></li>
-                    <li><a href="#">Website design</a></li>
+                    <li><a href="services.html">Project Management</a></li>
+                    <li><a href="services.html">Graphic Design</a></li>
+                    <li><a href="services.html">Digital Marketing</a></li>
                   </ul>
                 </div>
               </div>
             </div>
           </li>
-          <li><a href="#">Feedback</a></li>
+          <li><a href="feedback.html">Feedback</a></li>
         </ul>
         <label for="menu-btn" class="btn menu-btn"
           ><i class="fas fa-bars"></i
@@ -301,13 +277,13 @@
             <div class="single-service">
               <div class="content">
                 <span class="icon">
-                  <i class="fa fa-users"></i>
+                  <i class="fa fa-bullhorn"></i>
                 </span>
-                <h3 class="title">Account Management</h3>
+                <h3 class="title">Digital Marketing</h3>
                 <p class="description">
-                  Account management services that guarantee your company will
-                  receive timely billing, effective customer interactions, and
-                  fast support.
+                  professional digital marketing services that stimulate company
+                  expansion using social media, targeted advertising and
+                  data-driven tactics.
                 </p>
                 <a href="#" class="learn-more">Learn More</a>
               </div>
@@ -380,28 +356,18 @@
     <!-- Newsletter Start -->
 
     <div class="newsletter">
-      <img src="image/img1.jpg" alt="" />
-      <h3>Build Your Dreams With</h3>
-      <h2>Enigmas Bitss</h2>
-      <button>Get In Touch</button>
+      <div>
+        <h3>Build Your Dreams With</h3>
+        <h2>Enigmas Bits</h2>
+        <p>Create Your Website Today and Get Your Free hosting Plan</p>
+      </div>
+      <a
+        href="https://wa.me/+9620795254461?text= I would like to know more about your services!"
+        target="_blank"
+        ><b>Get In Touch</b></a
+      >
     </div>
 
-    <script>
-      var velocity = 0.5;
-
-      function update() {
-        var pos = $(window).scrollTop();
-        var $image = $(".newsletter img"); // Select the image
-        var height = $(".newsletter").height() - 18; // Calculate height for the newsletter div
-
-        // Calculate new position for the image based on scroll
-        var newPos = Math.round((height - pos) * velocity);
-        $image.css("top", newPos + "px"); // Set new position for the image
-      }
-
-      // Bind the scroll event to the update function
-      $(window).bind("scroll", update);
-    </script>
     <!-- Newsletter End -->
 
     <!--Start about us section-->
@@ -505,7 +471,7 @@
 
     <!--Back to top-->
     <a href="#" class="top" id="scrollButton">Back to Top</a>
-    <!--JS Library-->
+    <!--JS Library-->>
     <script src="js/Pre-loader.js"></script>
     <script src="js/Slider.js"></script>
     <script src="js/back-to-top.js"></script>
