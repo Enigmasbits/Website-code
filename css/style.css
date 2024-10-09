@@ -272,6 +272,17 @@ nav .wrapper2 {
   font-size: 20px;
   font-weight: 500;
 }
+
+.content .row header::before {
+  content: "";
+  position: absolute;
+  top:90px;
+  background-color: #64DBFF;
+  height: 2px;
+  box-sizing: border-box;
+  width: 50px;
+}
+
 .content .row .mega-links {
   margin-left: -40px;
   border-left: 1px solid rgba(255, 255, 255, 0.09);
@@ -300,7 +311,11 @@ nav .wrapper2 {
   right: 30px;
   top: 10px;
 }
-
+@media screen and (max-width: 1150px){
+  .content .row header::before {
+    display: none;
+  }
+}
 @media screen and (max-width: 970px) {
   .wrapper2 .btn {
     display: block;
@@ -444,7 +459,6 @@ ul {
 }
 .footer {
   position: relative;
-  
   color: #ffffff;
   background: #242526;
   padding-bottom: 10px;
