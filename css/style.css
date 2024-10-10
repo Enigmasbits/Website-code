@@ -11,6 +11,8 @@ body {
   margin: 0;
   color: #eee;
   display: grid;
+  overflow-x: hidden
+
 }
 
 /* Back to top */
